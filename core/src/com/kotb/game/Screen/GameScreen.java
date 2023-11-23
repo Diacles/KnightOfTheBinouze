@@ -288,7 +288,7 @@ public class GameScreen implements Screen {
         this.heartEmpty = new Texture(Gdx.files.internal("ui_heart_empty.png"));
 
         //#region CURSOR
-        Pixmap pixmap = new Pixmap(Gdx.files.internal("utility/cursor64x64.png"));
+        Pixmap pixmap = new Pixmap(Gdx.files.internal("Utility/cursor64x64.png"));
         int xHotspot = 32, yHotspot = 32;
         Cursor cursor = Gdx.graphics.newCursor(pixmap, xHotspot, yHotspot);
         Gdx.graphics.setCursor(cursor);

@@ -7,7 +7,7 @@ public class Hermes_shoes extends Artifact {
 
     // Constructeur
     public Hermes_shoes() {
-        super("Hermes shoes", "adds 15% more speed", "Speed", 100, "artifact/hermesBoots.png");
+        super("Hermes shoes", "adds 15% more speed", "Speed", 100, "Artifact/hermesBoots.png");
     }
 
     // Applique l'effet des chaussures d'Hermès sur une unité
